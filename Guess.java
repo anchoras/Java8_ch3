@@ -14,5 +14,8 @@ class Guess {
             if (ch == answer) {
                 System.out.println("** You are right! **");
             }
+            else {
+                System.out.println("Sorry, you was wrong");
+            }
         }
 }
