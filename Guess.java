@@ -8,7 +8,7 @@ class Guess {
         throws java.io.IOException {
             char ch, answer = 'S';
             System.out.println("The letter belongs to A-Z");
-            System.out.println("Let's guess witch letter is answer");
+            System.out.println("Let's guess which letter is the answer");
 
             ch = (char) System.in.read();
             if (ch == answer) {
@@ -16,6 +16,12 @@ class Guess {
             }
             else {
                 System.out.println("Sorry, you was wrong");
+                if (ch < answer) {
+                    System.out.println("The letter is closer to alphabet's end");
+                }
+                else {
+                    System.out.println("The letter is closer to alphabet's begin");
+                }
             }
         }
 }
