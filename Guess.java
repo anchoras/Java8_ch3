@@ -4,7 +4,7 @@
 */
 
 class Guess {
-    public static void mian(String args[])
+    public static void main (String args[])
         throws java.io.IOException {
             char ch, answer = 'S';
             System.out.println("The letter belongs to A-Z");
