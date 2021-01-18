@@ -1,4 +1,5 @@
 /*
+    program for final task 1 for chapter 3
     input symbols from keyboard until '.' is inputed
     number of spaces is shown in the end of the program
 */
